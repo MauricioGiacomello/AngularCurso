@@ -15,8 +15,8 @@ export class DataBindingComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  obterNumero(numero: any) {
+  obterNumero(numero_: any) {
 
-    this.numero = numero.value
+    this.numero = numero_.value
   }
 }
