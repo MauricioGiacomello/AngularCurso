@@ -1,0 +1,15 @@
+
+<!-- Ng é a mesma coisa que usar um if no back-->
+
+<h1 *ngIf="true">Esse será exibido</h1>
+<h1 *ngIf="false">Esse não será exibido</h1>
+
+<h1 *ngIf="numero !== 0">Não vai ser exibido</h1>
+<h1 *ngIf="numero == 0">Vai ser exibido!</h1>
+
+<input type="text" (input)="obterNumero($event.target)"/>
+<h1 *ngIf="numero > 5">Só vai ser exibido se for maior que 5</h1>
+
+<!-- NGIF -->
+
+<h1 *ngFor="let n of arrNumeros">{{n}}</h1>
